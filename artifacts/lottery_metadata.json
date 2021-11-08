@@ -7,6 +7,11 @@
 		"abi": [
 			{
 				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
 				"name": "enterParticipants",
 				"outputs": [],
 				"stateMutability": "payable",
@@ -22,7 +27,7 @@
 						"type": "address"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -49,6 +54,13 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -80,10 +92,10 @@
 	},
 	"sources": {
 		"lottery.sol": {
-			"keccak256": "0xdc4e4fba0f2c0bfa5994f98b6e05e5cd43cbf136e519ef19adb5e18a18c0bf6c",
+			"keccak256": "0xeeb010ac8fb2d4fa5a0f5be298a6eb8fcfffce2442d69680806362beb73e52a1",
 			"urls": [
-				"bzz-raw://283e89d8705a6ea6ac99f01dad1ee636b50d249a27d0e685e7510cfd8bfe3939",
-				"dweb:/ipfs/QmYMyvgv3CkrB5rjRR4ZqrfMm9ZBhZWQPBLdvVGHJbJB1j"
+				"bzz-raw://827367109b9ca433f3dc0c1405ed40cffe97a7210b9065e8045a1162b88a219b",
+				"dweb:/ipfs/QmPCxYxFY24cqfpCqLfzpX5V27Jo4LbVAK1vnXHN65jogq"
 			]
 		}
 	},
